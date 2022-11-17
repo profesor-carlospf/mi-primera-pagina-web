@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mi página web con formularios</title>
+</head>
+
+<body>
+    <form method="get" action="https://www.google.es/search">
+        <fieldset>
+            <legend>Esto se enviará a Google</legend>
+            <label>Busqueda: </label>
+            <br>
+            <input name="q">
+            <br>
+        </fieldset>
+        <fieldset style="border: 2px solid black">
+            <legend>Esto es para pruebas</legend>
+            <label for="fecha">Fecha: </label>
+            <br>
+            <input type="date" id="fecha">
+            <br>
+            <label for="color">Color: </label>
+            <br>
+            <input type="color" id="color">
+            <br>
+            <label for="condiciones">¿Está de acuerdo con las condiciones de uso?</label>
+            <input type="checkbox" id="condiciones">
+            <br>
+            Area de texto:
+            <br>
+            <div style="text-align: center">
+                <textarea placeholder="Cuentanos tus dudas...">
+                    </textarea>
+            </div>
+            Has entendido los select:
+            <br>
+            <select>
+                <option>Si</option>
+                <option>No</option>
+            </select>
+            <br>
+        </fieldset>
+        Imagen:
+        <br>
+        <input type="image">
+        <br>
+        <button type="submit">Buscar en Google</button>
+    </form>
+</body>
+
+</html>

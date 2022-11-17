@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Mi página web con tablas</title>
+        <link rel="stylesheet" href="estilos.css" type="text/css">
+    </head>
+    <body>
+        <table style="width:100%">
+            <caption>Mi tabla de celdas</caption> 
+            <thead>
+                <tr>
+                    <td colspan="3">Esto es una cabecera</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        Este texto estaría en el píe de la tabla
+                    </td>
+                </tr>
+            </tfoot> 
+            <tbody>
+                <tr>
+                    <td colspan="2">Mi celda 1-1</td>
+                    <td rowspan="2">Mi celda 1-2</td>
+                </tr>
+                <tr>
+                    <td>Mi celda 2-1</td>
+                    <td>Mi celda 2-2</td>
+                </tr>   
+                <tr>
+                    <th>Mi primera columna</th>
+                    <th>Mi segunda columna</th>
+                    <th>Mi tercera columna</th>
+                </tr>  
+                <tr>
+                    <th colspan="3">Mi super título</th>                
+                </tr>
+            </tbody>                                                     
+        </table>
+    </body>
+</html>
