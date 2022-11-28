@@ -11,3 +11,74 @@ a:active {
     color: lime;
     background-color: orange;
 }
+
+#caja1,#caja2,#caja3 {    
+    font-family:verdana;
+    font-size:1.3rem;
+  }
+
+#caja1 {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  margin-top:150px;
+  background-color:#ffff55;
+}  
+
+#caja3 {
+  margin-left:220px;
+  margin-right:20px;
+  margin-top:150px;  
+  background-color:#ffffbb;
+}
+  
+#caja2 {
+    position:fixed;
+    background-color: greenyellow;
+    left:15px;    
+    top:5px;
+    z-index: 1;
+  }
+/* #caja3 {
+    position: relative;
+    top: 70px;
+} */
+
+* {
+    margin:0;
+    padding:0;
+  }
+  #contenedor
+  {
+    width:100%;
+    border:1px solid #000;
+    line-height:130%;
+    background-color:#f2f2f2; 
+  }
+  #cabecera
+  {
+    padding:10px;
+    color:#fff;
+    background-color:#becdfe;
+    clear:left;
+  }
+  #columna1
+  {
+    float:left;
+    width:200px;
+    margin:0;
+    padding:1rem;
+  }
+  #columna2
+  {
+    margin-left:210px;
+    border-left:1px solid #aaa;
+    padding:1rem;
+  }
+  #pie {
+    padding:10px;
+    color:#fff;
+    background-color:#becdfe;
+    clear:left;
+  }
