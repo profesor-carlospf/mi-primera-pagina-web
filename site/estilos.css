@@ -82,3 +82,57 @@ a:active {
     background-color:#becdfe;
     clear:left;
   }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="number"]  {
+    background-color: #ffff55;
+
+  }
+
+  input[type="submit"]
+  {
+    background-color: blue;
+    color: whitesmoke;
+    
+  }
+
+  input[type="reset"],
+  button {
+    background-color: grey;
+  }  
+
+  .container {
+    width:100%;
+    margin:0 auto;
+    height:200px;
+    background-color:#eee;  
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+      background-color:red;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+      background-color:green;	
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+      background-color:blue;	
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+      background-color:yellow;		
+    }
+  }
