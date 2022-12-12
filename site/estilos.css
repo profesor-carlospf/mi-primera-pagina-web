@@ -1,3 +1,7 @@
+h1 {
+    background-color: greenyellow;
+    color:red;
+}
 a:link {
     color: red;
 }
@@ -10,4 +14,9 @@ a:visited {
 a:active {
     color: lime;
     background-color: orange;
+}
+
+dt {
+    font-size: 1.2rem;
+    background-color: grey;
 }
