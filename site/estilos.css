@@ -1,3 +1,7 @@
+h1 {
+    background-color: greenyellow;
+    color:red;
+}
 a:link {
     color: red;
 }
@@ -12,6 +16,10 @@ a:active {
     background-color: orange;
 }
 
+dt {
+    font-size: 1.2rem;
+    background-color: grey;
+}
 #caja1,#caja2,#caja3 {    
     font-family:verdana;
     font-size:1.3rem;
